@@ -20518,7 +20518,7 @@
     ],
     "CSharpLanguageVersion": 800
   },
-  "RootNamespace": "role_api",
+  "RootNamespace": null,
   "Documents": [],
   "SerializationFormat": "0.2"
 }

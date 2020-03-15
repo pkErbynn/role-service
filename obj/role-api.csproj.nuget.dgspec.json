@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/pkerbynn/dev/TURNTABL/learn-dash/role-api/role-api/role-api.csproj": {}
+    "/home/pkerbynn/dev/TURNTABL/learn-dash/role-api/role-api.csproj": {}
   },
   "projects": {
-    "/home/pkerbynn/dev/TURNTABL/learn-dash/role-api/role-api/role-api.csproj": {
+    "/home/pkerbynn/dev/TURNTABL/learn-dash/role-api/role-api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/pkerbynn/dev/TURNTABL/learn-dash/role-api/role-api/role-api.csproj",
+        "projectUniqueName": "/home/pkerbynn/dev/TURNTABL/learn-dash/role-api/role-api.csproj",
         "projectName": "role-api",
-        "projectPath": "/home/pkerbynn/dev/TURNTABL/learn-dash/role-api/role-api/role-api.csproj",
+        "projectPath": "/home/pkerbynn/dev/TURNTABL/learn-dash/role-api/role-api.csproj",
         "packagesPath": "/home/pkerbynn/.nuget/packages/",
-        "outputPath": "/home/pkerbynn/dev/TURNTABL/learn-dash/role-api/role-api/obj/",
+        "outputPath": "/home/pkerbynn/dev/TURNTABL/learn-dash/role-api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/pkerbynn/.nuget/NuGet/NuGet.Config"
@@ -35,6 +35,28 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "target": "Package",
+              "version": "(, )"
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
