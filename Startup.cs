@@ -28,9 +28,10 @@ namespace role_api
         {
             services.AddDbContext<RoleContext>
             (opt => opt.UseSqlServer(Configuration["Data:RoleAPIConnection:ConnectionStrings"]));
+
             // services.AddDbContext<RoleContext>(options =>
             //     options.UseSqlServer(Configuration.GetConnectionString("Data:RoleAPIConnection:ConnectionStrings")));
-            
+
             services.AddMvc(option => option.EnableEndpointRouting = false).SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
         }
 
