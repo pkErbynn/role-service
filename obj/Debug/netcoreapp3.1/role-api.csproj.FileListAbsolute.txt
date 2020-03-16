@@ -72,3 +72,7 @@
 /home/pkerbynn/dev/TURNTABL/learn-dash/role-api/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.0/System.Runtime.Caching.dll
 /home/pkerbynn/dev/TURNTABL/learn-dash/role-api/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
 /home/pkerbynn/dev/TURNTABL/learn-dash/role-api/obj/Debug/netcoreapp3.1/role-api.csproj.CopyComplete
+/home/pkerbynn/dev/TURNTABL/learn-dash/role-api/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Relational.Design.dll
+/home/pkerbynn/dev/TURNTABL/learn-dash/role-api/bin/Debug/netcoreapp3.1/Npgsql.dll
+/home/pkerbynn/dev/TURNTABL/learn-dash/role-api/bin/Debug/netcoreapp3.1/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+/home/pkerbynn/dev/TURNTABL/learn-dash/role-api/bin/Debug/netcoreapp3.1/Npgsql.EntityFrameworkCore.PostgreSQL.Design.dll
