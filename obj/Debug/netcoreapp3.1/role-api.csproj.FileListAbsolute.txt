@@ -76,3 +76,12 @@
 /home/pkerbynn/dev/TURNTABL/learn-dash/role-api/bin/Debug/netcoreapp3.1/Npgsql.dll
 /home/pkerbynn/dev/TURNTABL/learn-dash/role-api/bin/Debug/netcoreapp3.1/Npgsql.EntityFrameworkCore.PostgreSQL.dll
 /home/pkerbynn/dev/TURNTABL/learn-dash/role-api/bin/Debug/netcoreapp3.1/Npgsql.EntityFrameworkCore.PostgreSQL.Design.dll
+/home/pkerbynn/dev/TURNTABL/learn-dash/role-api/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.JsonPatch.dll
+/home/pkerbynn/dev/TURNTABL/learn-dash/role-api/bin/Debug/netcoreapp3.1/Microsoft.DotNet.PlatformAbstractions.dll
+/home/pkerbynn/dev/TURNTABL/learn-dash/role-api/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyModel.dll
+/home/pkerbynn/dev/TURNTABL/learn-dash/role-api/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+/home/pkerbynn/dev/TURNTABL/learn-dash/role-api/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.dll
+/home/pkerbynn/dev/TURNTABL/learn-dash/role-api/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.Swagger.dll
+/home/pkerbynn/dev/TURNTABL/learn-dash/role-api/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/pkerbynn/dev/TURNTABL/learn-dash/role-api/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerUI.dll
+/home/pkerbynn/dev/TURNTABL/learn-dash/role-api/obj/Debug/netcoreapp3.1/role-api.MvcApplicationPartsAssemblyInfo.cs

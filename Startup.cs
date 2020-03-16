@@ -12,6 +12,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.EntityFrameworkCore;
 using role_api.Models;
+using Swashbuckle.AspNetCore.Swagger;
+
 
 namespace role_api
 {
@@ -26,19 +28,36 @@ namespace role_api
 
         public void ConfigureServices(IServiceCollection services)
         {
-            // services.AddDbContext<RoleContext>
-            // (opt => opt.UseSqlServer(Configuration["Data:RoleAPIConnection:ConnectionStrings"]));
 
-            services.AddDbContext<RoleContext>(options => 
+            services.AddDbContext<RoleContext>(options =>
                             options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
 
-
             services.AddMvc(option => option.EnableEndpointRouting = false).SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
+
+            services.AddSwaggerGen(c =>
+               {
+                   c.SwaggerDoc("v1", new OpenApiInfo { Title = "My API", Version = "v1" });
+               });
+           
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            // app.UseSwagger();
+            // app.UseSwaggerUI(c =>
+            //     {
+            //         c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+            //     });
+            // app.UseCustomSwagger();
+
+
             app.UseMvc();
+            app.UseSwagger();
+
+            app.UseSwaggerUI(c =>
+                    {
+                        c.SwaggerEndpoint("/swagger/v1/swagger.json", "CommandAPI");
+                    });
 
             // if (env.IsDevelopment())
             // {
