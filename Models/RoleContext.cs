@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 
+
 namespace role_api.Models
 {
     public class RoleContext : DbContext
