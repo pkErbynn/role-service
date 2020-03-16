@@ -13,7 +13,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.EntityFrameworkCore;
 using role_api.Models;
 using Swashbuckle.AspNetCore.Swagger;
-
+using Microsoft.OpenApi.Models;
 
 namespace role_api
 {
@@ -36,43 +36,24 @@ namespace role_api
 
             services.AddSwaggerGen(c =>
                {
-                   c.SwaggerDoc("v1", new OpenApiInfo { Title = "My API", Version = "v1" });
+                   c.SwaggerDoc("v1", new OpenApiInfo { Title = "Role API", Version = "v1" });
                });
            
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            // app.UseSwagger();
-            // app.UseSwaggerUI(c =>
-            //     {
-            //         c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
-            //     });
-            // app.UseCustomSwagger();
-
-
-            app.UseMvc();
+            // swagger config must come before UseMvc()
             app.UseSwagger();
 
             app.UseSwaggerUI(c =>
                     {
-                        c.SwaggerEndpoint("/swagger/v1/swagger.json", "CommandAPI");
+                        c.SwaggerEndpoint("/swagger/v1/swagger.json", "RoleAPI");
                     });
 
-            // if (env.IsDevelopment())
-            // {
-            //     app.UseDeveloperExceptionPage();
-            // }
 
-            // app.UseRouting();
-
-            // app.UseEndpoints(endpoints =>
-            // {
-            //     endpoints.MapGet("/", async context =>
-            //     {
-            //         await context.Response.WriteAsync("Hello World!");
-            //     });
-            // });
+            app.UseMvc();
+           
         }
     }
 }
