@@ -1,5 +1,5 @@
  
 language: csharp
 script:
-  - dotnet build
-  
+    - dotnet restore
+    - dotnet build
