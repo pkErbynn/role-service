@@ -28,7 +28,6 @@ namespace role_api
 
         public void ConfigureServices(IServiceCollection services)
         {
-
             services.AddDbContext<RoleContext>(options =>
                             options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
 
@@ -38,7 +37,6 @@ namespace role_api
                {
                    c.SwaggerDoc("v1", new OpenApiInfo { Title = "Role API", Version = "v1" });
                });
-           
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -51,9 +49,7 @@ namespace role_api
                         c.SwaggerEndpoint("/swagger/v1/swagger.json", "RoleAPI");
                     });
 
-
             app.UseMvc();
-           
         }
     }
 }
