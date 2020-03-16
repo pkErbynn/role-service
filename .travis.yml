@@ -2,3 +2,4 @@
 language: csharp
 script:
   - dotnet build
+  
