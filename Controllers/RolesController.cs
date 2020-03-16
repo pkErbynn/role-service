@@ -58,6 +58,19 @@ namespace role_api.Controllers
             return NoContent();
         }
 
+        [HttpDelete("{id}")]
+        public ActionResult<Role> PutRole(int id)
+        {
+           var role = _context.Roles.Find(id);
+           if(role == null){
+               return NotFound();
+           }
+           _context.Roles.Remove(role);
+           _context.SaveChanges();
+           
+           return role;
+        }
+
         // [HttpGet]  
         // public ActionResult<IEnumerable<string>> GetString()
         // {
