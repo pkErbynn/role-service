@@ -10,6 +10,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
+using Microsoft.EntityFrameworkCore;
+using role_api.Models;
 
 namespace role_api
 {
@@ -24,6 +26,11 @@ namespace role_api
 
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<RoleContext>
+            (opt => opt.UseSqlServer(Configuration["Data:RoleAPIConnection:ConnectionStrings"]));
+            // services.AddDbContext<RoleContext>(options =>
+            //     options.UseSqlServer(Configuration.GetConnectionString("Data:RoleAPIConnection:ConnectionStrings")));
+            
             services.AddMvc(option => option.EnableEndpointRouting = false).SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
         }
 

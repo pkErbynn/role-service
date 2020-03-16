@@ -1,0 +1,5 @@
+/home/pkerbynn/dev/TURNTABL/learn-dash/role-api/obj/Debug/netcoreapp2.2/role-api.csprojAssemblyReference.cache
+/home/pkerbynn/dev/TURNTABL/learn-dash/role-api/obj/Debug/netcoreapp2.2/role-api.RazorAssemblyInfo.cache
+/home/pkerbynn/dev/TURNTABL/learn-dash/role-api/obj/Debug/netcoreapp2.2/role-api.RazorAssemblyInfo.cs
+/home/pkerbynn/dev/TURNTABL/learn-dash/role-api/obj/Debug/netcoreapp2.2/role-api.AssemblyInfoInputs.cache
+/home/pkerbynn/dev/TURNTABL/learn-dash/role-api/obj/Debug/netcoreapp2.2/role-api.AssemblyInfo.cs
