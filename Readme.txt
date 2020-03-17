@@ -1,7 +1,5 @@
 // Todo
-
-add swagger 
-dir structure
 deploy to heroku
+dir structure
 set env var
 dockerize
