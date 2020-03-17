@@ -35,14 +35,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/../Roles/Models/RoleContext.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Roles/Models/Role.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Roles/Migrations/20200316154408_initial.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Roles/Startup.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Roles/Migrations/20200316154408_initial.Designer.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Roles/Properties/launchSettings.json" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Roles/Controllers/RolesController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Roles/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/appsettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/obj/project.assets.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controllers/RolesController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -50,6 +46,7 @@
         <option value="$PROJECT_DIR$/../io.turntabl.Roles/Program.cs" />
         <option value="$PROJECT_DIR$/../Roles/Startup.cs" />
         <option value="$PROJECT_DIR$/../Roles/Migrations/20200316154408_initial.cs" />
+        <option value="$PROJECT_DIR$/Controllers/RolesController.cs" />
       </list>
     </option>
   </component>
@@ -129,14 +126,16 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -158,21 +157,25 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="466" y="154" width="424" height="484" key="FileChooserDialogImpl/0.27.1366.741/1366.0.1366.768@0.27.1366.741" timestamp="1584471419808" />
-    <state width="1320" height="140" key="GridCell.Tab.0.bottom" timestamp="1584471426948">
+    <state width="1320" height="177" key="GridCell.Tab.0.bottom" timestamp="1584473875790">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="140" key="GridCell.Tab.0.bottom/0.27.1366.741/1366.0.1366.768@0.27.1366.741" timestamp="1584471426948" />
-    <state width="1320" height="140" key="GridCell.Tab.0.center" timestamp="1584471426947">
+    <state width="1320" height="177" key="GridCell.Tab.0.bottom/0.27.1366.741/1366.0.1366.768@0.27.1366.741" timestamp="1584473875790" />
+    <state width="1320" height="177" key="GridCell.Tab.0.center" timestamp="1584473875790">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="140" key="GridCell.Tab.0.center/0.27.1366.741/1366.0.1366.768@0.27.1366.741" timestamp="1584471426947" />
-    <state width="1320" height="140" key="GridCell.Tab.0.left" timestamp="1584471426947">
+    <state width="1320" height="177" key="GridCell.Tab.0.center/0.27.1366.741/1366.0.1366.768@0.27.1366.741" timestamp="1584473875790" />
+    <state width="1320" height="177" key="GridCell.Tab.0.left" timestamp="1584473875790">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="140" key="GridCell.Tab.0.left/0.27.1366.741/1366.0.1366.768@0.27.1366.741" timestamp="1584471426947" />
-    <state width="1320" height="140" key="GridCell.Tab.0.right" timestamp="1584471426948">
+    <state width="1320" height="177" key="GridCell.Tab.0.left/0.27.1366.741/1366.0.1366.768@0.27.1366.741" timestamp="1584473875790" />
+    <state width="1320" height="177" key="GridCell.Tab.0.right" timestamp="1584473875790">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="140" key="GridCell.Tab.0.right/0.27.1366.741/1366.0.1366.768@0.27.1366.741" timestamp="1584471426948" />
+    <state width="1320" height="177" key="GridCell.Tab.0.right/0.27.1366.741/1366.0.1366.768@0.27.1366.741" timestamp="1584473875790" />
+    <state x="408" y="309" width="540" height="175" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1584473982413">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="408" y="309" width="540" height="175" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.27.1366.741/1366.0.1366.768@0.27.1366.741" timestamp="1584473982413" />
   </component>
 </project>
