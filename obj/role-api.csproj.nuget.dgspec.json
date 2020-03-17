@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/pkerbynn/dev/TURNTABL/learn-dash/role-api/role-api.csproj": {}
+    "/home/pkerbynn/dev/TURNTABL/learn-dash/Roles/role-api.csproj": {}
   },
   "projects": {
-    "/home/pkerbynn/dev/TURNTABL/learn-dash/role-api/role-api.csproj": {
+    "/home/pkerbynn/dev/TURNTABL/learn-dash/Roles/role-api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/pkerbynn/dev/TURNTABL/learn-dash/role-api/role-api.csproj",
+        "projectUniqueName": "/home/pkerbynn/dev/TURNTABL/learn-dash/Roles/role-api.csproj",
         "projectName": "role-api",
-        "projectPath": "/home/pkerbynn/dev/TURNTABL/learn-dash/role-api/role-api.csproj",
+        "projectPath": "/home/pkerbynn/dev/TURNTABL/learn-dash/Roles/role-api.csproj",
         "packagesPath": "/home/pkerbynn/.nuget/packages/",
-        "outputPath": "/home/pkerbynn/dev/TURNTABL/learn-dash/role-api/obj/",
+        "outputPath": "/home/pkerbynn/dev/TURNTABL/learn-dash/Roles/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/pkerbynn/.nuget/NuGet/NuGet.Config"
+          "/home/pkerbynn/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"

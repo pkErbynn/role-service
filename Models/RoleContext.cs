@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 
 
-namespace role_api.Models
+namespace io.turntabl.RoleService.Models
 {
     public class RoleContext : DbContext
     {

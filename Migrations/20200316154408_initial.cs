@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
-namespace role_api.Migrations
+namespace io.turntabl.RoleService.Migrations
 {
     public partial class initial : Migration
     {

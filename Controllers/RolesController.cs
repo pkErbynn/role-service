@@ -1,10 +1,10 @@
 using System;
 using System.Collections.Generic;
+using io.turntabl.RoleService.Models;
 using Microsoft.AspNetCore.Mvc;
-using role_api.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace role_api.Controllers
+namespace io.turntabl.RoleService.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -19,7 +19,7 @@ namespace role_api.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<Role>> GetRoles()
         {
-          return _context.Roles;
+            return _context.Roles;
         }
 
         [HttpGet("{id}")]
