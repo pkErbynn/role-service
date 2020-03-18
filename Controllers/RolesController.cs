@@ -19,7 +19,7 @@ namespace io.turntabl.RoleService.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<Role>> GetRoles()
         {
-            return _context.Role;
+            return _context.Roles;
         }
 
         [HttpGet("{id}")]

@@ -52,9 +52,10 @@
         <option value="$PROJECT_DIR$/../io.turntabl.Roles/Program.cs" />
         <option value="$PROJECT_DIR$/../Roles/Startup.cs" />
         <option value="$PROJECT_DIR$/../Roles/Migrations/20200316154408_initial.cs" />
-        <option value="$PROJECT_DIR$/Controllers/RolesController.cs" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/appsettings.json" />
+        <option value="$PROJECT_DIR$/Models/RoleContext.cs" />
+        <option value="$PROJECT_DIR$/Controllers/RolesController.cs" />
       </list>
     </option>
   </component>
@@ -187,10 +188,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1320" height="177" key="GridCell.Tab.0.right/0.27.1366.741/1366.0.1366.768@0.27.1366.741" timestamp="1584473875790" />
-    <state x="331" y="107" width="704" height="578" key="find.popup" timestamp="1584541848987">
+    <state x="331" y="107" width="704" height="578" key="find.popup" timestamp="1584556317522">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="331" y="107" width="704" height="578" key="find.popup/0.27.1366.741/1366.0.1366.768@0.27.1366.741" timestamp="1584541848987" />
+    <state x="331" y="107" width="704" height="578" key="find.popup/0.27.1366.741/1366.0.1366.768@0.27.1366.741" timestamp="1584556317522" />
     <state x="408" y="309" width="540" height="175" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1584473982413">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
