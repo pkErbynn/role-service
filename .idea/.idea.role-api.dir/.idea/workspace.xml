@@ -36,8 +36,13 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/appsettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Migrations/20200316154408_initial.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/RoleContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/obj/project.assets.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/appsettings.Development.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/.vscode/tasks.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Controllers/RolesController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -51,7 +56,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1ZGeo4rLQCa04jyMKljiik3KwnD" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -68,6 +73,8 @@
     <property name="TWShift.3" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Roles" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.role-api: IIS Express">
     <configuration name="All in rest-api" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api.http">
@@ -149,6 +156,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="141" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.741/1366.0.1366.768@0.27.1366.741" timestamp="1584470181719" />
+    <state x="346" y="201" width="664" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584541835532">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="346" y="201" width="664" height="390" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1366.741/1366.0.1366.768@0.27.1366.741" timestamp="1584541835532" />
     <state x="264" y="27" width="841" height="741" key="#role-api:_IIS_Express" timestamp="1584471392813">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -173,6 +184,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1320" height="177" key="GridCell.Tab.0.right/0.27.1366.741/1366.0.1366.768@0.27.1366.741" timestamp="1584473875790" />
+    <state x="331" y="107" width="704" height="578" key="find.popup" timestamp="1584541848987">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="331" y="107" width="704" height="578" key="find.popup/0.27.1366.741/1366.0.1366.768@0.27.1366.741" timestamp="1584541848987" />
     <state x="408" y="309" width="540" height="175" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1584473982413">
       <screen x="0" y="27" width="1366" height="741" />
     </state>

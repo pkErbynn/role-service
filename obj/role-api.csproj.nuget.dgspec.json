@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/pkerbynn/dev/TURNTABL/learn-dash/Roles/role-api.csproj": {}
+    "/home/pkerbynn/dev/TURNTABL/learn-dash/roles-service/role-api.csproj": {}
   },
   "projects": {
-    "/home/pkerbynn/dev/TURNTABL/learn-dash/Roles/role-api.csproj": {
+    "/home/pkerbynn/dev/TURNTABL/learn-dash/roles-service/role-api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/pkerbynn/dev/TURNTABL/learn-dash/Roles/role-api.csproj",
+        "projectUniqueName": "/home/pkerbynn/dev/TURNTABL/learn-dash/roles-service/role-api.csproj",
         "projectName": "role-api",
-        "projectPath": "/home/pkerbynn/dev/TURNTABL/learn-dash/Roles/role-api.csproj",
+        "projectPath": "/home/pkerbynn/dev/TURNTABL/learn-dash/roles-service/role-api.csproj",
         "packagesPath": "/home/pkerbynn/.nuget/packages/",
-        "outputPath": "/home/pkerbynn/dev/TURNTABL/learn-dash/Roles/obj/",
+        "outputPath": "/home/pkerbynn/dev/TURNTABL/learn-dash/roles-service/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/pkerbynn/.config/NuGet/NuGet.Config"
@@ -39,10 +39,6 @@
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.2, )"
-            },
-            "Microsoft.AspNetCore.Razor.Design": {
-              "target": "Package",
-              "version": "[2.2.0, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

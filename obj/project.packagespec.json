@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/home/pkerbynn/dev/TURNTABL/learn-dash/Roles/role-api.csproj",
+    "projectUniqueName": "/home/pkerbynn/dev/TURNTABL/learn-dash/roles-service/role-api.csproj",
     "projectName": "role-api",
-    "projectPath": "/home/pkerbynn/dev/TURNTABL/learn-dash/Roles/role-api.csproj",
-    "outputPath": "/home/pkerbynn/dev/TURNTABL/learn-dash/Roles/obj/",
+    "projectPath": "/home/pkerbynn/dev/TURNTABL/learn-dash/roles-service/role-api.csproj",
+    "outputPath": "/home/pkerbynn/dev/TURNTABL/learn-dash/roles-service/obj/",
     "projectStyle": "PackageReference",
     "originalTargetFrameworks": [
       "netcoreapp3.1"
@@ -29,10 +29,6 @@
         "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
           "target": "Package",
           "version": "[3.1.2, )"
-        },
-        "Microsoft.AspNetCore.Razor.Design": {
-          "target": "Package",
-          "version": "[2.2.0, )"
         },
         "Microsoft.EntityFrameworkCore.Design": {
           "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
