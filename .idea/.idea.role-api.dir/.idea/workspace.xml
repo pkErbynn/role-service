@@ -54,8 +54,8 @@
         <option value="$PROJECT_DIR$/../Roles/Migrations/20200316154408_initial.cs" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/appsettings.json" />
-        <option value="$PROJECT_DIR$/Models/RoleContext.cs" />
         <option value="$PROJECT_DIR$/Controllers/RolesController.cs" />
+        <option value="$PROJECT_DIR$/Models/RoleContext.cs" />
       </list>
     </option>
   </component>
