@@ -42,6 +42,7 @@
     <setting file="file://$PROJECT_DIR$/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/obj/project.assets.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/appsettings.Development.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/.vscode/launch.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/.vscode/tasks.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Controllers/RolesController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -53,6 +54,7 @@
         <option value="$PROJECT_DIR$/../Roles/Migrations/20200316154408_initial.cs" />
         <option value="$PROJECT_DIR$/Controllers/RolesController.cs" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/appsettings.json" />
       </list>
     </option>
   </component>
