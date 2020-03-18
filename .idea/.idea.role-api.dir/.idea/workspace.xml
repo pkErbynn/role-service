@@ -52,6 +52,7 @@
         <option value="$PROJECT_DIR$/../Roles/Startup.cs" />
         <option value="$PROJECT_DIR$/../Roles/Migrations/20200316154408_initial.cs" />
         <option value="$PROJECT_DIR$/Controllers/RolesController.cs" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
