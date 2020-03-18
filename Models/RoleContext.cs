@@ -7,5 +7,7 @@ namespace io.turntabl.RoleService.Models
     {
         public RoleContext(DbContextOptions<RoleContext> options) : base(options) { }
         public DbSet<Role> Roles { get; set; }
+        public DbSet<Role> Role { get; set; }
+
     }
 }
