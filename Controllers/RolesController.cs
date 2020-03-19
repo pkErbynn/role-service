@@ -19,30 +19,30 @@ namespace io.turntabl.RoleService.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<Role>> GetRoles()
         {
-            return _context.Roles;
+            return _context.Role;
         }
 
         [HttpGet("{id}")]
-        public ActionResult<Role> GetRole(int id)
-        {
-            var role = _context.Roles.Find(id);
+        // public ActionResult<Role> GetRole(int id)
+        // {
+            // var role = _context.Roles.Find(id);
 
-            if (role == null)
-            {
-                return NotFound();
-            }
+            // if (role == null)
+            // {
+            //     return NotFound();
+            // }
+            //
+            // return role;
+        // }
 
-            return role;
-        }
+        // [HttpPost]
+        // public ActionResult<Role> PostRole(Role role)
+        // {
+            // _context.Roles.Add(role);
+            // _context.SaveChanges();
 
-        [HttpPost]
-        public ActionResult<Role> PostRole(Role role)
-        {
-            _context.Roles.Add(role);
-            _context.SaveChanges();
-
-            return CreatedAtAction("GetRole", new Role { Id = role.Id }, role);
-        }
+            // return CreatedAtAction("GetRole", new Role { Id = role.Id }, role);
+        // }
 
         [HttpPut("{id}")]
         public ActionResult PutRole(int id, Role role)
@@ -58,18 +58,18 @@ namespace io.turntabl.RoleService.Controllers
             return NoContent();
         }
 
-        [HttpDelete("{id}")]
-        public ActionResult<Role> PutRole(int id)
-        {
-           var role = _context.Roles.Find(id);
-           if(role == null){
-               return NotFound();
-           }
-           _context.Roles.Remove(role);
-           _context.SaveChanges();
+        // [HttpDelete("{id}")]
+        // public ActionResult<Role> PutRole(int id)
+        // {
+           // var role = _context.Roles.Find(id);
+           // if(role == null){
+               // return NotFound();
+           // }
+           // _context.Roles.Remove(role);
+           // _context.SaveChanges();
            
-           return role;
-        }
+           // return role;
+        // }
 
         // [HttpGet]  
         // public ActionResult<IEnumerable<string>> GetString()
