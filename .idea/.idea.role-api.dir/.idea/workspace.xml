@@ -27,6 +27,8 @@
   <component name="ChangeListManager">
     <list default="true" id="bdf4ce05-42a6-4b69-9b0a-232bc6830337" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.role-api.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.role-api.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/RolesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/RolesController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/RoleContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/RoleContext.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,11 +59,11 @@
         <option value="$PROJECT_DIR$/../Roles/Startup.cs" />
         <option value="$PROJECT_DIR$/../Roles/Migrations/20200316154408_initial.cs" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/Models/RoleContext.cs" />
         <option value="$PROJECT_DIR$/Readme.txt" />
-        <option value="$PROJECT_DIR$/Controllers/RolesController.cs" />
         <option value="$PROJECT_DIR$/Properties/launchSettings.json" />
         <option value="$PROJECT_DIR$/appsettings.json" />
+        <option value="$PROJECT_DIR$/Models/RoleContext.cs" />
+        <option value="$PROJECT_DIR$/Controllers/RolesController.cs" />
       </list>
     </option>
   </component>
@@ -170,7 +172,7 @@
       <option name="presentableId" value="Default" />
       <updated>1584470033134</updated>
       <workItem from="1584470048335" duration="1364000" />
-      <workItem from="1584630625510" duration="7669000" />
+      <workItem from="1584630625510" duration="7975000" />
     </task>
     <servers />
   </component>

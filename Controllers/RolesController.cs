@@ -41,13 +41,13 @@ namespace io.turntabl.RoleService.Controllers
             _context.roles.Add(role);
             _context.SaveChanges();
 
-            return CreatedAtAction("GetRole", new Role { Id = role.Id }, role);
+            return CreatedAtAction("GetRole", new Role { id = role.id }, role);
         }
 
         [HttpPut("{id}")]
         public ActionResult PutRole(int id, Role role)
         {
-            if (id != role.Id)
+            if (id != role.id)
             {
                 return BadRequest();
             }
