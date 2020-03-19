@@ -14,7 +14,7 @@
         "outputPath": "/home/pkerbynn/dev/TURNTABL/learn-dash/roles-service/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/pkerbynn/.config/NuGet/NuGet.Config"
+          "/home/pkerbynn/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"

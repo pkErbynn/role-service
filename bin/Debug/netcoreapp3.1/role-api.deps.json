@@ -25,7 +25,6 @@
       "role-api/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.1.2",
-          "Microsoft.AspNetCore.Razor.Design": "2.2.0",
           "Microsoft.EntityFrameworkCore.Design": "3.1.2",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.2",
           "Microsoft.EntityFrameworkCore.Tools": "3.1.2",
@@ -335,7 +334,6 @@
           "lib/netcoreapp3.1/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Razor.Design/2.2.0": {},
       "Microsoft.Bcl.AsyncInterfaces/1.1.0": {
         "runtime": {
           "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
@@ -3334,13 +3332,6 @@
       "sha512": "sha512-+z3jkvdCcV9aKE5kwRRDoDXu6lTxh5NwFwJ4joraKySpeLSJj74KC+++sGgnESkuSgmtVuXWltcoJ5wmbP/MIQ==",
       "path": "microsoft.aspnetcore.identity.entityframeworkcore/3.1.2",
       "hashPath": "microsoft.aspnetcore.identity.entityframeworkcore.3.1.2.nupkg.sha512"
-    },
-    "Microsoft.AspNetCore.Razor.Design/2.2.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-VLWK+ZtMMNukY6XjxYHc7mz33vkquoEzQJHm/LCF5REVxIaexLr+UTImljRRJBdUDJluDAQwU+59IX0rFDfURA==",
-      "path": "microsoft.aspnetcore.razor.design/2.2.0",
-      "hashPath": "microsoft.aspnetcore.razor.design.2.2.0.nupkg.sha512"
     },
     "Microsoft.Bcl.AsyncInterfaces/1.1.0": {
       "type": "package",
