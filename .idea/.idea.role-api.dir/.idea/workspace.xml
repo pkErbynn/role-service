@@ -27,9 +27,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bdf4ce05-42a6-4b69-9b0a-232bc6830337" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.role-api.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.role-api.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/RolesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/RolesController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/RoleContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/RoleContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/role-api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/role-api.dll" afterDir="false" />
@@ -57,6 +54,7 @@
     <setting file="file://$PROJECT_DIR$/.vscode/launch.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/.vscode/tasks.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Controllers/RolesController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Properties/launchSettings.json" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -65,10 +63,11 @@
         <option value="$PROJECT_DIR$/../Roles/Startup.cs" />
         <option value="$PROJECT_DIR$/../Roles/Migrations/20200316154408_initial.cs" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/appsettings.json" />
         <option value="$PROJECT_DIR$/Models/RoleContext.cs" />
         <option value="$PROJECT_DIR$/Readme.txt" />
         <option value="$PROJECT_DIR$/Controllers/RolesController.cs" />
+        <option value="$PROJECT_DIR$/Properties/launchSettings.json" />
+        <option value="$PROJECT_DIR$/appsettings.json" />
       </list>
     </option>
   </component>
@@ -96,7 +95,32 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.role-api: IIS Express">
+  <component name="RunManager" selected="HTTP Request.All in rest-api">
+    <configuration default="true" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/role-api.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs>
+        <env name="SERVER" value="localhost" />
+        <env name="PORT" value="5432" />
+        <env name="DATABASE" value="role_db" />
+        <env name="USER" value="postgres" />
+        <env name="PASSWORD" value="erbynn" />
+      </envs>
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/role-api.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v3.1" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="All in rest-api" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api.http">
       <method v="2" />
     </configuration>
@@ -130,6 +154,11 @@
         <option name="Build" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue=".NET Launch Settings Profile.role-api: IIS Express" />
+      <item itemvalue=".NET Launch Settings Profile.role-api: role_api" />
+      <item itemvalue="HTTP Request.All in rest-api" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="HTTP Request.All in rest-api" />
@@ -147,7 +176,7 @@
       <option name="presentableId" value="Default" />
       <updated>1584470033134</updated>
       <workItem from="1584470048335" duration="1364000" />
-      <workItem from="1584630625510" duration="5506000" />
+      <workItem from="1584630625510" duration="6518000" />
     </task>
     <servers />
   </component>
@@ -173,18 +202,24 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="141" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584470181719">
-      <screen x="0" y="27" width="1366" height="741" />
+    <state x="52" y="27" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584638221676">
+      <screen x="0" y="27" width="2732" height="741" />
     </state>
     <state x="141" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.741/1366.0.1366.768@0.27.1366.741" timestamp="1584470181719" />
-    <state x="346" y="201" width="664" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584541835532">
-      <screen x="0" y="27" width="1366" height="741" />
+    <state x="52" y="27" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.2732.741@0.27.2732.741" timestamp="1584638221676" />
+    <state x="38" y="201" width="664" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584637742648">
+      <screen x="0" y="27" width="2732" height="741" />
     </state>
     <state x="346" y="201" width="664" height="390" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1366.741/1366.0.1366.768@0.27.1366.741" timestamp="1584541835532" />
+    <state x="38" y="201" key="#com.intellij.fileTypes.FileTypeChooser/0.27.2732.741@0.27.2732.741" timestamp="1584637742648" />
     <state x="264" y="27" width="841" height="741" key="#role-api:_IIS_Express" timestamp="1584471392813">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="264" y="27" width="841" height="741" key="#role-api:_IIS_Express/0.27.1366.741/1366.0.1366.768@0.27.1366.741" timestamp="1584471392813" />
+    <state x="409" y="138" width="515" height="542" key="EnvironmentVariablesDialog" timestamp="1584637943589">
+      <screen x="0" y="27" width="2732" height="741" />
+    </state>
+    <state x="409" y="138" width="515" height="542" key="EnvironmentVariablesDialog/0.27.2732.741@0.27.2732.741" timestamp="1584637943589" />
     <state x="466" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1584471419808">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -205,10 +240,11 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1320" height="177" key="GridCell.Tab.0.right/0.27.1366.741/1366.0.1366.768@0.27.1366.741" timestamp="1584473875790" />
-    <state x="331" y="107" width="704" height="578" key="find.popup" timestamp="1584556317522">
-      <screen x="0" y="27" width="1366" height="741" />
+    <state x="662" y="107" width="1408" height="578" key="find.popup" timestamp="1584637260710">
+      <screen x="0" y="27" width="2732" height="741" />
     </state>
     <state x="331" y="107" width="704" height="578" key="find.popup/0.27.1366.741/1366.0.1366.768@0.27.1366.741" timestamp="1584556317522" />
+    <state x="662" y="107" width="1408" height="578" key="find.popup/0.27.2732.741@0.27.2732.741" timestamp="1584637260710" />
     <state x="408" y="309" width="540" height="175" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1584473982413">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
