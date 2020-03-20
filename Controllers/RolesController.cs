@@ -64,7 +64,7 @@ namespace io.turntabl.RoleService.Controllers
 
         
         /// <summary>
-        /// Deletes a specific TodoItem.
+        /// Deletes a specific role.
         /// </summary>
         /// <param name="id"></param>   
         [HttpDelete("{id}")]
