@@ -15,7 +15,12 @@ namespace io.turntabl.RoleService.Controllers
         {
             _context = context;
         }
-
+        
+        
+        
+        /// <summary>
+        /// Get all roles.
+        /// </summary>
         [HttpGet]
         public ActionResult<IEnumerable<Role>> GetRoles()
         {
@@ -71,6 +76,8 @@ namespace io.turntabl.RoleService.Controllers
            return role;
         }
 
+        
+        
         
         
         [Route("test")]
