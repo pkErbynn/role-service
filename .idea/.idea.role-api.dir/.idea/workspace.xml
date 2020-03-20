@@ -27,7 +27,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bdf4ce05-42a6-4b69-9b0a-232bc6830337" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.role-api.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.role-api.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Properties/launchSettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -177,7 +176,7 @@
       <workItem from="1584630625510" duration="13095000" />
       <workItem from="1584706213611" duration="516000" />
       <workItem from="1584707301793" duration="1951000" />
-      <workItem from="1584715847505" duration="3421000" />
+      <workItem from="1584715847505" duration="4096000" />
     </task>
     <servers />
   </component>
@@ -203,10 +202,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="52" y="27" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584638221676">
-      <screen x="0" y="27" width="2732" height="741" />
+    <state x="141" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584719661069">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="141" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.741/1366.0.1366.768@0.27.1366.741" timestamp="1584470181719" />
+    <state x="141" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.741/1366.0.1366.768@0.27.1366.741" timestamp="1584719661069" />
     <state x="52" y="27" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.2732.741@0.27.2732.741" timestamp="1584638221676" />
     <state x="38" y="201" width="664" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584637742648">
       <screen x="0" y="27" width="2732" height="741" />
@@ -217,9 +216,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="264" y="27" width="841" height="741" key="#role-api:_IIS_Express/0.27.1366.741/1366.0.1366.768@0.27.1366.741" timestamp="1584471392813" />
-    <state x="409" y="138" width="515" height="542" key="EnvironmentVariablesDialog" timestamp="1584637943589">
-      <screen x="0" y="27" width="2732" height="741" />
+    <state x="205" y="138" width="309" height="542" key="EnvironmentVariablesDialog" timestamp="1584719659291">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
+    <state x="205" y="138" width="309" height="542" key="EnvironmentVariablesDialog/0.27.1366.741/1366.0.1366.768@0.27.1366.741" timestamp="1584719659291" />
     <state x="409" y="138" width="515" height="542" key="EnvironmentVariablesDialog/0.27.2732.741@0.27.2732.741" timestamp="1584637943589" />
     <state x="466" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1584471419808">
       <screen x="0" y="27" width="1366" height="741" />
