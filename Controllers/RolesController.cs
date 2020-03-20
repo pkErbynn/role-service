@@ -17,16 +17,13 @@ namespace io.turntabl.RoleService.Controllers
         }
         
         
-        
-        /// <summary>
-        /// Get all roles.
-        /// </summary>
         [HttpGet]
         public ActionResult<IEnumerable<Role>> GetRoles()
         {
             return _context.roles;
         }
 
+        
         [HttpGet("{id}")]
         public ActionResult<Role> GetRole(int id)
         {
@@ -40,6 +37,7 @@ namespace io.turntabl.RoleService.Controllers
             return role;
         }
 
+        
         [HttpPost]
         public ActionResult<Role> PostRole(Role role)
         {
@@ -49,6 +47,7 @@ namespace io.turntabl.RoleService.Controllers
             return CreatedAtAction("GetRole", new Role { id = role.id }, role);
         }
 
+        
         [HttpPut("{id}")]
         public ActionResult PutRole(int id, Role role)
         {
@@ -63,6 +62,11 @@ namespace io.turntabl.RoleService.Controllers
             return NoContent();
         }
 
+        
+        /// <summary>
+        /// Deletes a specific TodoItem.
+        /// </summary>
+        /// <param name="id"></param>   
         [HttpDelete("{id}")]
         public ActionResult<Role> PutRole(int id)
         {
@@ -75,11 +79,8 @@ namespace io.turntabl.RoleService.Controllers
            
            return role;
         }
+        
 
-        
-        
-        
-        
         [Route("test")]
         [HttpGet]  // for testing
         public ActionResult<IEnumerable<string>> GetString()
