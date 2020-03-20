@@ -16,7 +16,7 @@ namespace io.turntabl.RoleService.Controllers
             _context = context;
         }
         
-        
+        // GET api/roles
         [HttpGet]
         public ActionResult<IEnumerable<Role>> GetRoles()
         {
@@ -24,6 +24,7 @@ namespace io.turntabl.RoleService.Controllers
         }
 
         
+        // GET api/roles/2
         [HttpGet("{id}")]
         public ActionResult<Role> GetRole(int id)
         {
@@ -38,6 +39,7 @@ namespace io.turntabl.RoleService.Controllers
         }
 
         
+        // POST api/roles
         [HttpPost]
         public ActionResult<Role> PostRole(Role role)
         {
@@ -48,6 +50,7 @@ namespace io.turntabl.RoleService.Controllers
         }
 
         
+        // PUT api/roles/2
         [HttpPut("{id}")]
         public ActionResult PutRole(int id, Role role)
         {
@@ -63,10 +66,7 @@ namespace io.turntabl.RoleService.Controllers
         }
 
         
-        /// <summary>
-        /// Deletes a specific role.
-        /// </summary>
-        /// <param name="id"></param>   
+        // DELETE api/roles/2
         [HttpDelete("{id}")]
         public ActionResult<Role> PutRole(int id)
         {
