@@ -46,7 +46,7 @@ namespace io.turntabl.RoleService.Controllers
             _context.roles.Add(role);
             _context.SaveChanges();
 
-            return CreatedAtAction("GetRole", new Role { id = role.id }, role);
+            return CreatedAtAction("GetRole", new Role { role_id = role.role_id }, role);
         }
 
         
@@ -54,7 +54,7 @@ namespace io.turntabl.RoleService.Controllers
         [HttpPut("{id}")]
         public ActionResult PutRole(int id, Role role)
         {
-            if (id != role.id)
+            if (id != role.role_id)
             {
                 return BadRequest();
             }

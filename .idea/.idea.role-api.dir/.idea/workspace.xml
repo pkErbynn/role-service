@@ -26,13 +26,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bdf4ce05-42a6-4b69-9b0a-232bc6830337" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Models/Employee.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.role-api.dir/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.role-api.dir/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.role-api.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.role-api.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/RolesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/RolesController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Role.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Role.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/RoleContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/RoleContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/role-api.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/role-api.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/role-api.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/role-api.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/role-api.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/role-api.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/role-api.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/role-api.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/role-service.sql" beforeDir="false" afterPath="$PROJECT_DIR$/role-service.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -48,6 +72,7 @@
     <setting file="file://$PROJECT_DIR$/Models/Role.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Models/RoleContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/obj/Debug/netcoreapp3.1/role-api.AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/Employee.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/obj/project.assets.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Properties/launchSettings.json" root0="FORCE_HIGHLIGHTING" />
@@ -59,12 +84,16 @@
         <option value="$PROJECT_DIR$/../Roles/Startup.cs" />
         <option value="$PROJECT_DIR$/../Roles/Migrations/20200316154408_initial.cs" />
         <option value="$PROJECT_DIR$/Readme.txt" />
-        <option value="$PROJECT_DIR$/Models/Role.cs" />
-        <option value="$PROJECT_DIR$/Models/RoleContext.cs" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/Controllers/RolesController.cs" />
         <option value="$PROJECT_DIR$/Properties/launchSettings.json" />
         <option value="$PROJECT_DIR$/appsettings.json" />
+        <option value="$PROJECT_DIR$/Models/User.cs" />
+        <option value="$PROJECT_DIR$/Startup.cs" />
+        <option value="$PROJECT_DIR$/role-service.sql" />
+        <option value="$PROJECT_DIR$/Controllers/RolesController.cs" />
+        <option value="$PROJECT_DIR$/Models/Employee.cs" />
+        <option value="$PROJECT_DIR$/Models/Role.cs" />
+        <option value="$PROJECT_DIR$/Models/RoleContext.cs" />
       </list>
     </option>
   </component>
@@ -91,6 +120,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="HTTP Request.All in rest-api">
     <configuration default="true" type="DotNetProject" factoryName=".NET Project">
@@ -176,7 +206,11 @@
       <workItem from="1584630625510" duration="13095000" />
       <workItem from="1584706213611" duration="516000" />
       <workItem from="1584707301793" duration="1951000" />
-      <workItem from="1584715847505" duration="7530000" />
+      <workItem from="1584715847505" duration="8518000" />
+      <workItem from="1584967795834" duration="47000" />
+      <workItem from="1585042379435" duration="14136000" />
+      <workItem from="1585122356697" duration="161000" />
+      <workItem from="1585127130357" duration="5242000" />
     </task>
     <servers />
   </component>
@@ -202,11 +236,16 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="141" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584719661069">
+    <state x="278" y="58" width="800" height="677" key="#SQL_Dialects" timestamp="1585127228939">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
+    <state x="278" y="58" width="800" height="677" key="#SQL_Dialects/0.27.1366.741@0.27.1366.741" timestamp="1585127228939" />
+    <state x="52" y="27" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585128217675">
+      <screen x="0" y="27" width="2732" height="741" />
+    </state>
     <state x="141" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.741/1366.0.1366.768@0.27.1366.741" timestamp="1584719661069" />
-    <state x="52" y="27" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.2732.741@0.27.2732.741" timestamp="1584638221676" />
+    <state x="141" y="54" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.741@0.27.1366.741" timestamp="1585127210978" />
+    <state x="52" y="27" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.2732.741@0.27.2732.741" timestamp="1585128217675" />
     <state x="38" y="201" width="664" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584637742648">
       <screen x="0" y="27" width="2732" height="741" />
     </state>
@@ -241,10 +280,15 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1320" height="177" key="GridCell.Tab.0.right/0.27.1366.741/1366.0.1366.768@0.27.1366.741" timestamp="1584473875790" />
-    <state x="331" y="107" width="704" height="578" key="find.popup" timestamp="1584718841728">
+    <state x="174" y="27" key="SettingsEditor" timestamp="1584967855394">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="174" y="27" key="SettingsEditor/0.27.1366.741/1366.0.1366.768@0.27.1366.741" timestamp="1584967855394" />
+    <state x="331" y="107" width="704" height="578" key="find.popup" timestamp="1585060091126">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="331" y="107" width="704" height="578" key="find.popup/0.27.1366.741/1366.0.1366.768@0.27.1366.741" timestamp="1584718841728" />
+    <state x="331" y="107" width="704" height="578" key="find.popup/0.27.1366.741@0.27.1366.741" timestamp="1585060091126" />
     <state x="662" y="107" width="1408" height="578" key="find.popup/0.27.2732.741@0.27.2732.741" timestamp="1584637260710" />
     <state x="408" y="309" width="540" height="175" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1584473982413">
       <screen x="0" y="27" width="1366" height="741" />

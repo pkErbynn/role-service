@@ -17,6 +17,7 @@
         <e p="RoleContextModelSnapshot.cs" t="Include" />
       </e>
       <e p="Models" t="Include">
+        <e p="Employee.cs" t="Include" />
         <e p="Role.cs" t="Include" />
         <e p="RoleContext.cs" t="Include" />
       </e>
