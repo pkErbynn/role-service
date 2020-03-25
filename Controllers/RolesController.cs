@@ -20,7 +20,7 @@ namespace io.turntabl.RoleService.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<Role>> GetRoles()
         {
-            return _context.roles;
+            return _context.Roles;
         }
 
         
@@ -28,7 +28,7 @@ namespace io.turntabl.RoleService.Controllers
         [HttpGet("{id}")]
         public ActionResult<Role> GetRole(int id)
         {
-            var role = _context.roles.Find(id);
+            var role = _context.Roles.Find(id);
 
             if (role == null)
             {
@@ -43,10 +43,10 @@ namespace io.turntabl.RoleService.Controllers
         [HttpPost]
         public ActionResult<Role> PostRole(Role role)
         {
-            _context.roles.Add(role);
+            _context.Roles.Add(role);
             _context.SaveChanges();
 
-            return CreatedAtAction("GetRole", new Role { role_id = role.role_id }, role);
+            return CreatedAtAction("GetRole", new Role { Id = role.Id }, role);
         }
 
         
@@ -54,7 +54,7 @@ namespace io.turntabl.RoleService.Controllers
         [HttpPut("{id}")]
         public ActionResult PutRole(int id, Role role)
         {
-            if (id != role.role_id)
+            if (id != role.Id)
             {
                 return BadRequest();
             }
@@ -70,11 +70,11 @@ namespace io.turntabl.RoleService.Controllers
         [HttpDelete("{id}")]
         public ActionResult<Role> PutRole(int id)
         {
-           var role = _context.roles.Find(id);
+           var role = _context.Roles.Find(id);
            if(role == null){
                return NotFound();
            }
-           _context.roles.Remove(role);
+           _context.Roles.Remove(role);
            _context.SaveChanges();
            
            return role;

@@ -10,6 +10,6 @@ namespace io.turntabl.RoleService.Models
         public string employee_lname { get; set; }
         public string employee_email { get; set; }
         public string employee_address { get; set; }
-        public Role roles { get; set; }
+        public Role role { get; set; }
     }
 }
