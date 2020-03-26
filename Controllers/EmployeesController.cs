@@ -20,7 +20,7 @@ namespace io.turntabl.RoleService.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<Employee>> GetRoles()
         {
-            return _context.Employees;
+            return _context.employees;
         }
 
         
@@ -28,7 +28,7 @@ namespace io.turntabl.RoleService.Controllers
         [HttpGet("{id}")]
         public ActionResult<Employee> GetRole(int id)
         {
-            var employee = _context.Employees.Find(id);
+            var employee = _context.employees.Find(id);
 
             if (employee == null)
             {
@@ -43,7 +43,7 @@ namespace io.turntabl.RoleService.Controllers
         [HttpPost]
         public ActionResult<Employee> PostRole(Employee employee)
         {
-            _context.Employees.Add(employee);
+            _context.employees.Add(employee);
             _context.SaveChanges();
 
             return CreatedAtAction("GetRole", new Employee { EmployeeId = employee.EmployeeId }, employee);
@@ -70,19 +70,20 @@ namespace io.turntabl.RoleService.Controllers
         [HttpDelete("{id}")]
         public ActionResult<Employee> PutRole(int id)
         {
-           var role = _context.Employees.Find(id);
+           var role = _context.employees.Find(id);
            if(role == null){
                return NotFound();
            }
-           _context.Employees.Remove(role);
+           _context.employees.Remove(role);
            _context.SaveChanges();
            
            return role;
         }
         
 
+        // api/test .... for testing
         [Route("test")]
-        [HttpGet]  // for testing
+        [HttpGet]  
         public ActionResult<IEnumerable<string>> GetString()
         {
             return new string[] { "this", "is", "working !" };
