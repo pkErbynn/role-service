@@ -16,7 +16,7 @@ namespace io.turntabl.RoleService.Controllers
             _context = context;
         }
         
-        // GET api/roles
+        // GET api/employees
         [HttpGet]
         public ActionResult<IEnumerable<Employee>> GetRoles()
         {
@@ -24,7 +24,7 @@ namespace io.turntabl.RoleService.Controllers
         }
 
         
-        // GET api/roles/2
+        // GET api/employees/2
         [HttpGet("{id}")]
         public ActionResult<Employee> GetRole(int id)
         {
@@ -39,7 +39,7 @@ namespace io.turntabl.RoleService.Controllers
         }
 
         
-        // POST api/roles
+        // POST api/employees
         [HttpPost]
         public ActionResult<Employee> PostRole(Employee employee)
         {
@@ -50,7 +50,7 @@ namespace io.turntabl.RoleService.Controllers
         }
 
         
-        // PUT api/roles/2
+        // PUT api/employees/2
         [HttpPut("{id}")]
         public ActionResult PutRole(int id, Employee employee)
         {
@@ -66,7 +66,7 @@ namespace io.turntabl.RoleService.Controllers
         }
 
         
-        // DELETE api/roles/2
+        // DELETE api/employees/2
         [HttpDelete("{id}")]
         public ActionResult<Employee> PutRole(int id)
         {

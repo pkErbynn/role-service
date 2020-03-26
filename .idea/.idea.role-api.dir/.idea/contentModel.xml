@@ -14,6 +14,8 @@
       <e p="Migrations" t="Include">
         <e p="20200316154408_initial.Designer.cs" t="Include" />
         <e p="20200316154408_initial.cs" t="Include" />
+        <e p="20200326134859_employeedb.Designer.cs" t="Include" />
+        <e p="20200326134859_employeedb.cs" t="Include" />
         <e p="RoleContextModelSnapshot.cs" t="Include" />
       </e>
       <e p="Models" t="Include">
