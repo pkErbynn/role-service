@@ -26,7 +26,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bdf4ce05-42a6-4b69-9b0a-232bc6830337" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/emplyee-role.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.role-api.dir/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.role-api.dir/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.role-api.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.role-api.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/RolesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/EmployeesController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20200316154408_initial.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Migrations/20200316154408_initial.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/RoleContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Migrations/RoleContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Employee.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Employee.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Role.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/RoleContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/EmployeeContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/role-api.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/role-api.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/role-api.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/role-api.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/role-api.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/role-api.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/role-api.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/role-api.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/role-service.sql" beforeDir="false" afterPath="$PROJECT_DIR$/role-service.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,14 +71,15 @@
     <setting file="file://$PROJECT_DIR$/appsettings.Development.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/.vscode/launch.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/.vscode/tasks.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Controllers/RolesController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controllers/EmployeesController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Migrations/RoleContextModelSnapshot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Migrations/20200316154408_initial.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Models/Role.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Models/RoleContext.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/obj/Debug/netcoreapp3.1/role-api.AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Models/Employee.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/EmployeeContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/obj/Debug/netcoreapp3.1/role-api.AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/obj/project.assets.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/obj/role-api.csproj.nuget.dgspec.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Properties/launchSettings.json" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -78,12 +93,16 @@
         <option value="$PROJECT_DIR$/Properties/launchSettings.json" />
         <option value="$PROJECT_DIR$/Models/User.cs" />
         <option value="$PROJECT_DIR$/Startup.cs" />
-        <option value="$PROJECT_DIR$/Models/Employee.cs" />
         <option value="$PROJECT_DIR$/appsettings.json" />
         <option value="$PROJECT_DIR$/Models/RoleContext.cs" />
         <option value="$PROJECT_DIR$/Models/Role.cs" />
+        <option value="$PROJECT_DIR$/Models/EmployeeRole.cs" />
+        <option value="$PROJECT_DIR$/Models/EmployeeContext.cs" />
         <option value="$PROJECT_DIR$/Controllers/RolesController.cs" />
+        <option value="$PROJECT_DIR$/Controllers/EmployeesController.cs" />
+        <option value="$PROJECT_DIR$/Models/Employee.cs" />
         <option value="$PROJECT_DIR$/role-service.sql" />
+        <option value="$PROJECT_DIR$/emplyee-role.sql" />
       </list>
     </option>
   </component>
@@ -200,7 +219,8 @@
       <workItem from="1584967795834" duration="47000" />
       <workItem from="1585042379435" duration="14136000" />
       <workItem from="1585122356697" duration="161000" />
-      <workItem from="1585127130357" duration="8583000" />
+      <workItem from="1585127130357" duration="10895000" />
+      <workItem from="1585220929720" duration="6275000" />
     </task>
     <servers />
   </component>
@@ -226,21 +246,21 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="278" y="58" width="800" height="677" key="#SQL_Dialects" timestamp="1585127228939">
+    <state x="278" y="58" width="800" height="677" key="#SQL_Dialects" timestamp="1585228592166">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="278" y="58" width="800" height="677" key="#SQL_Dialects/0.27.1366.741@0.27.1366.741" timestamp="1585127228939" />
+    <state x="278" y="58" width="800" height="677" key="#SQL_Dialects/0.27.1366.741@0.27.1366.741" timestamp="1585228592166" />
     <state x="52" y="27" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585128217675">
       <screen x="0" y="27" width="2732" height="741" />
     </state>
     <state x="141" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.741/1366.0.1366.768@0.27.1366.741" timestamp="1584719661069" />
     <state x="141" y="54" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.741@0.27.1366.741" timestamp="1585127210978" />
     <state x="52" y="27" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.2732.741@0.27.2732.741" timestamp="1585128217675" />
-    <state x="38" y="201" width="664" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584637742648">
+    <state x="38" y="201" width="664" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585138761401">
       <screen x="0" y="27" width="2732" height="741" />
     </state>
     <state x="346" y="201" width="664" height="390" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1366.741/1366.0.1366.768@0.27.1366.741" timestamp="1584541835532" />
-    <state x="38" y="201" key="#com.intellij.fileTypes.FileTypeChooser/0.27.2732.741@0.27.2732.741" timestamp="1584637742648" />
+    <state x="38" y="201" width="664" height="390" key="#com.intellij.fileTypes.FileTypeChooser/0.27.2732.741@0.27.2732.741" timestamp="1585138761401" />
     <state x="264" y="27" width="841" height="741" key="#role-api:_IIS_Express" timestamp="1584471392813">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -250,10 +270,11 @@
     </state>
     <state x="205" y="138" width="309" height="542" key="EnvironmentVariablesDialog/0.27.1366.741/1366.0.1366.768@0.27.1366.741" timestamp="1584719659291" />
     <state x="409" y="138" width="515" height="542" key="EnvironmentVariablesDialog/0.27.2732.741@0.27.2732.741" timestamp="1584637943589" />
-    <state x="466" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1584471419808">
+    <state x="466" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1585228450945">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="466" y="154" width="424" height="484" key="FileChooserDialogImpl/0.27.1366.741/1366.0.1366.768@0.27.1366.741" timestamp="1584471419808" />
+    <state x="466" y="154" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1585228450945" />
     <state width="1320" height="177" key="GridCell.Tab.0.bottom" timestamp="1584473875790">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -274,12 +295,16 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="174" y="27" key="SettingsEditor/0.27.1366.741/1366.0.1366.768@0.27.1366.741" timestamp="1584967855394" />
-    <state x="331" y="107" width="704" height="578" key="find.popup" timestamp="1585060091126">
-      <screen x="0" y="27" width="1366" height="741" />
+    <state x="662" y="107" width="1408" height="578" key="find.popup" timestamp="1585138862460">
+      <screen x="0" y="27" width="2732" height="741" />
     </state>
     <state x="331" y="107" width="704" height="578" key="find.popup/0.27.1366.741/1366.0.1366.768@0.27.1366.741" timestamp="1584718841728" />
     <state x="331" y="107" width="704" height="578" key="find.popup/0.27.1366.741@0.27.1366.741" timestamp="1585060091126" />
-    <state x="662" y="107" width="1408" height="578" key="find.popup/0.27.2732.741@0.27.2732.741" timestamp="1584637260710" />
+    <state x="662" y="107" width="1408" height="578" key="find.popup/0.27.2732.741@0.27.2732.741" timestamp="1585138862460" />
+    <state x="346" y="89" key="search.everywhere.popup" timestamp="1585228004859">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="346" y="89" key="search.everywhere.popup/0.27.1366.741@0.27.1366.741" timestamp="1585228004859" />
     <state x="408" y="309" width="540" height="175" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1584473982413">
       <screen x="0" y="27" width="1366" height="741" />
     </state>

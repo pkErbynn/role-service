@@ -9,7 +9,7 @@
       <e p=".role-api.csproj.swp" t="Include" />
       <e p=".travis.yml" t="Include" />
       <e p="Controllers" t="Include">
-        <e p="RolesController.cs" t="Include" />
+        <e p="EmployeesController.cs" t="Include" />
       </e>
       <e p="Migrations" t="Include">
         <e p="20200316154408_initial.Designer.cs" t="Include" />
@@ -18,8 +18,7 @@
       </e>
       <e p="Models" t="Include">
         <e p="Employee.cs" t="Include" />
-        <e p="Role.cs" t="Include" />
-        <e p="RoleContext.cs" t="Include" />
+        <e p="EmployeeContext.cs" t="Include" />
       </e>
       <e p="Program.cs" t="Include" />
       <e p="Properties" t="Include">
@@ -30,6 +29,7 @@
       <e p="appsettings.Development.json" t="Include" />
       <e p="appsettings.json" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
+      <e p="emplyee-role.sql" t="Include" />
       <e p="obj" t="ExcludeRecursive">
         <e p="Debug" t="Include">
           <e p="netcoreapp3.1" t="Include">

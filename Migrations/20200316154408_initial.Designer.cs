@@ -9,7 +9,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 namespace io.turntabl.RoleService.Migrations
 {
-    [DbContext(typeof(RoleContext))]
+    [DbContext(typeof(EmployeeContext))]
     [Migration("20200316154408_initial")]
     partial class initial
     {

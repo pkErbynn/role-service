@@ -1,9 +1,9 @@
  
---- DATABASE FOR HOLIDAY ME ---
+--- DROP RELATION ---
 
 DROP TABLE IF EXISTS Roles;
 
---- REQUEST STATUS ---
+--- ROLES RELATION ---
 
 CREATE TABLE Roles(
     Id serial primary key NOT NULL,

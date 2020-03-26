@@ -8,7 +8,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 namespace io.turntabl.RoleService.Migrations
 {
-    [DbContext(typeof(RoleContext))]
+    [DbContext(typeof(EmployeeContext))]
     partial class RoleContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

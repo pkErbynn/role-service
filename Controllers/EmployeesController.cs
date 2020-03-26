@@ -8,58 +8,58 @@ namespace io.turntabl.RoleService.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class RolesController : ControllerBase
+    public class EmployeesController : ControllerBase
     {
-        private readonly RoleContext _context;
-        public RolesController(RoleContext context)
+        private readonly EmployeeContext _context;
+        public EmployeesController(EmployeeContext context)
         {
             _context = context;
         }
         
         // GET api/roles
         [HttpGet]
-        public ActionResult<IEnumerable<Role>> GetRoles()
+        public ActionResult<IEnumerable<Employee>> GetRoles()
         {
-            return _context.Roles;
+            return _context.Employees;
         }
 
         
         // GET api/roles/2
         [HttpGet("{id}")]
-        public ActionResult<Role> GetRole(int id)
+        public ActionResult<Employee> GetRole(int id)
         {
-            var role = _context.Roles.Find(id);
+            var employee = _context.Employees.Find(id);
 
-            if (role == null)
+            if (employee == null)
             {
                 return NotFound();
             }
             
-            return role;
+            return employee;
         }
 
         
         // POST api/roles
         [HttpPost]
-        public ActionResult<Role> PostRole(Role role)
+        public ActionResult<Employee> PostRole(Employee employee)
         {
-            _context.Roles.Add(role);
+            _context.Employees.Add(employee);
             _context.SaveChanges();
 
-            return CreatedAtAction("GetRole", new Role { Id = role.Id }, role);
+            return CreatedAtAction("GetRole", new Employee { EmployeeId = employee.EmployeeId }, employee);
         }
 
         
         // PUT api/roles/2
         [HttpPut("{id}")]
-        public ActionResult PutRole(int id, Role role)
+        public ActionResult PutRole(int id, Employee employee)
         {
-            if (id != role.Id)
+            if (id != employee.EmployeeId)
             {
                 return BadRequest();
             }
 
-            _context.Entry(role).State = EntityState.Modified;
+            _context.Entry(employee).State = EntityState.Modified;
             _context.SaveChanges();
 
             return NoContent();
@@ -68,13 +68,13 @@ namespace io.turntabl.RoleService.Controllers
         
         // DELETE api/roles/2
         [HttpDelete("{id}")]
-        public ActionResult<Role> PutRole(int id)
+        public ActionResult<Employee> PutRole(int id)
         {
-           var role = _context.Roles.Find(id);
+           var role = _context.Employees.Find(id);
            if(role == null){
                return NotFound();
            }
-           _context.Roles.Remove(role);
+           _context.Employees.Remove(role);
            _context.SaveChanges();
            
            return role;
