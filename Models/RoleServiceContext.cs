@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-
+using Microsoft.EntityFrameworkCore.Metadata;
 
 namespace io.turntabl.RoleService.Models
 {
@@ -8,14 +8,17 @@ namespace io.turntabl.RoleService.Models
         public RoleServiceContext(DbContextOptions<RoleServiceContext> options) : base(options) { }
         public DbSet<Employee> employees { get; set; }
         public DbSet<Role> roles { get; set; }
-        
-        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+
+        protected override void OnModelCreating(ModelBuilder builder)
         {
-            // configures one-to-many relationship
-            modelBuilder.Entity<Student>()
-                .HasRequired<Grade>(s => s.CurrentGrade)
-                .WithMany(g => g.Students)
-                .HasForeignKey<int>(s => s.CurrentGradeId);          }
-    
+            base.OnModelCreating(builder);
+            
+            builder.Entity<Employee>().Property(employee => employee.role).IsRequired();
+            
+            builder.Entity<Role>()
+                .HasMany(p => p.employees)
+                .WithOne(p => p.role)
+                .HasForeignKey(p => p.role_id);
+        }
     }
 }
