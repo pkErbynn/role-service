@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using io.turntabl.RoleService.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -10,15 +11,15 @@ namespace io.turntabl.RoleService.Controllers
     [ApiController]
     public class EmployeesController : ControllerBase
     {
-        private readonly EmployeeContext _context;
-        public EmployeesController(EmployeeContext context)
+        private readonly RoleServiceContext _context;
+        public EmployeesController(RoleServiceContext context)
         {
             _context = context;
         }
         
         // GET api/employees
         [HttpGet]
-        public ActionResult<IEnumerable<Employee>> GetRoles()
+        public ActionResult<IEnumerable<Employee>> GetEmployees()
         {
             return _context.employees;
         }
@@ -26,9 +27,25 @@ namespace io.turntabl.RoleService.Controllers
         
         // GET api/employees/2
         [HttpGet("{id}")]
-        public ActionResult<Employee> GetRole(int id)
+        public ActionResult<Employee> GetEmployee(int id)
         {
             var employee = _context.employees.Find(id);
+
+            if (employee == null)
+            {
+                return NotFound();
+            }
+            
+            return employee;
+        }
+        
+        
+        // GET api/employees/2
+        [HttpGet("GetEmployeeDetails/{id}")]
+        public ActionResult<Employee> GetEmployeeDetails(int id)
+        {
+            var employee = _context.employees
+                .Include(e => e.role).First(e => e.employee_id == id);
 
             if (employee == null)
             {
@@ -41,34 +58,54 @@ namespace io.turntabl.RoleService.Controllers
         
         // POST api/employees
         [HttpPost]
-        public ActionResult<Employee> PostRole(Employee employee)
+        public ActionResult<Employee> PostEmployee(Employee employee)
         {
             _context.employees.Add(employee);
             _context.SaveChanges();
 
-            return CreatedAtAction("GetRole", new Employee { employeeid = employee.employeeid }, employee);
+            return CreatedAtAction("GetEmployee", new Employee { employee_id = employee.employee_id }, employee);
         }
 
         
         // PUT api/employees/2
         [HttpPut("{id}")]
-        public ActionResult PutRole(int id, Employee employee)
+        public ActionResult PutEmployee(int id, Employee employee)
         {
-            if (id != employee.employeeid)
+            if (id != employee.employee_id)
             {
                 return BadRequest();
             }
 
             _context.Entry(employee).State = EntityState.Modified;
-            _context.SaveChanges();
 
+            try
+            {
+                _context.SaveChanges();
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                if (!EmployeeExists(id))
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    throw;
+                }
+            }
+            
             return NoContent();
+        }
+        
+        private bool EmployeeExists(int id)
+        {
+            return _context.employees.Any(e => e.employee_id == id);
         }
 
         
         // DELETE api/employees/2
         [HttpDelete("{id}")]
-        public ActionResult<Employee> PutRole(int id)
+        public ActionResult<Employee> PutEmployee(int id)
         {
            var role = _context.employees.Find(id);
            if(role == null){

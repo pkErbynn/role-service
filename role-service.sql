@@ -38,9 +38,9 @@ INSERT INTO roles(role_id, role_name, role_description) VALUES (2, 'Developer', 
 create table employees(
   employee_id serial primary key NOT NULL,
   employee_fname varchar(30) NOT NULL,
-  employee_lname varchar(30) NOT NULL,
-  employee_email varchar(40) NOT NULL,
-  employee_address text NOT NULL,
+  employee_lname varchar(20) NOT NULL,
+  employee_email varchar(20) NOT NULL,
+  employee_address varchar(40) NOT NULL,
   role_id integer references roles(role_id) NOT NULL default 2
 );
 

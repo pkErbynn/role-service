@@ -29,7 +29,7 @@ namespace io.turntabl.RoleService
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<EmployeeContext>(options =>
+            services.AddDbContext<RoleServiceContext>(options =>
                             options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
 
             services.AddMvc(option => option.EnableEndpointRouting = false).SetCompatibilityVersion(CompatibilityVersion.Version_3_0);

@@ -26,7 +26,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bdf4ce05-42a6-4b69-9b0a-232bc6830337" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Controllers/RolesController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/Role.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.role-api.dir/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.role-api.dir/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.role-api.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.role-api.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/EmployeesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/EmployeesController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20200316154408_initial.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Migrations/20200316154408_initial.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20200326134859_employeedb.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Migrations/20200326134859_employeedb.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/RoleContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Migrations/RoleContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Employee.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Employee.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/EmployeeContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/RoleServiceContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/role-api.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/role-api.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/role-api.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/role-api.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/role-api.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/role-api.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/role-api.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/role-api.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/role-service.sql" beforeDir="false" afterPath="$PROJECT_DIR$/role-service.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,8 +76,10 @@
     <setting file="file://$PROJECT_DIR$/Migrations/RoleContextModelSnapshot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Migrations/20200316154408_initial.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Models/Employee.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Models/EmployeeContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/RoleServiceContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/obj/Debug/netcoreapp3.1/role-api.AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controllers/RolesController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/Role.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/obj/project.assets.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/obj/role-api.csproj.nuget.dgspec.json" root0="FORCE_HIGHLIGHTING" />
@@ -79,13 +97,14 @@
         <option value="$PROJECT_DIR$/Models/User.cs" />
         <option value="$PROJECT_DIR$/Startup.cs" />
         <option value="$PROJECT_DIR$/Models/RoleContext.cs" />
-        <option value="$PROJECT_DIR$/Models/Role.cs" />
         <option value="$PROJECT_DIR$/Models/EmployeeRole.cs" />
-        <option value="$PROJECT_DIR$/Controllers/RolesController.cs" />
-        <option value="$PROJECT_DIR$/role-service.sql" />
         <option value="$PROJECT_DIR$/emplyee-role.sql" />
-        <option value="$PROJECT_DIR$/appsettings.json" />
         <option value="$PROJECT_DIR$/Models/EmployeeContext.cs" />
+        <option value="$PROJECT_DIR$/appsettings.json" />
+        <option value="$PROJECT_DIR$/role-service.sql" />
+        <option value="$PROJECT_DIR$/Models/Role.cs" />
+        <option value="$PROJECT_DIR$/Controllers/RolesController.cs" />
+        <option value="$PROJECT_DIR$/Models/RoleServiceContext.cs" />
         <option value="$PROJECT_DIR$/Models/Employee.cs" />
         <option value="$PROJECT_DIR$/Controllers/EmployeesController.cs" />
       </list>
@@ -108,7 +127,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TWShift.3" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Roles" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../role-client/role-client.csproj" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
@@ -205,7 +224,8 @@
       <workItem from="1585042379435" duration="14136000" />
       <workItem from="1585122356697" duration="161000" />
       <workItem from="1585127130357" duration="10895000" />
-      <workItem from="1585220929720" duration="9547000" />
+      <workItem from="1585220929720" duration="12538000" />
+      <workItem from="1585291237090" duration="2276000" />
     </task>
     <servers />
   </component>
@@ -255,11 +275,11 @@
     </state>
     <state x="205" y="138" width="309" height="542" key="EnvironmentVariablesDialog/0.27.1366.741/1366.0.1366.768@0.27.1366.741" timestamp="1584719659291" />
     <state x="409" y="138" width="515" height="542" key="EnvironmentVariablesDialog/0.27.2732.741@0.27.2732.741" timestamp="1584637943589" />
-    <state x="466" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1585228450945">
+    <state x="466" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1585237305559">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="466" y="154" width="424" height="484" key="FileChooserDialogImpl/0.27.1366.741/1366.0.1366.768@0.27.1366.741" timestamp="1584471419808" />
-    <state x="466" y="154" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1585228450945" />
+    <state x="466" y="154" width="424" height="484" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1585237305559" />
     <state width="1320" height="177" key="GridCell.Tab.0.bottom" timestamp="1584473875790">
       <screen x="0" y="27" width="1366" height="741" />
     </state>

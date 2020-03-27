@@ -8,7 +8,7 @@ using io.turntabl.RoleService.Models;
 
 namespace io.turntabl.RoleService.Migrations
 {
-    [DbContext(typeof(EmployeeContext))]
+    [DbContext(typeof(RoleServiceContext))]
     [Migration("20200326134859_employeedb")]
     partial class employeedb
     {

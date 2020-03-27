@@ -7,7 +7,7 @@ using io.turntabl.RoleService.Models;
 
 namespace io.turntabl.RoleService.Migrations
 {
-    [DbContext(typeof(EmployeeContext))]
+    [DbContext(typeof(RoleServiceContext))]
     partial class RoleContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

@@ -5,11 +5,12 @@ namespace io.turntabl.RoleService.Models
     public class Employee
     {
         [Key]
-        public int employeeid{get; set;}
-        public string employeefname { get; set; }
-        public string employeelname { get; set; }
-        public string employeeemail { get; set; }
-        public string employeeaddress { get; set; }
-        public string employeerole { get; set; }
+        public int employee_id{get; set;}
+        public string employee_fname { get; set; }
+        public string employee_lname { get; set; }
+        public string employee_email { get; set; }
+        public string employee_address { get; set; }
+        
+        public virtual Role role { get; set; }
     }
 }
