@@ -26,23 +26,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bdf4ce05-42a6-4b69-9b0a-232bc6830337" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Controllers/RolesController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/Role.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.role-api.dir/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.role-api.dir/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.role-api.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.role-api.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/EmployeesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/EmployeesController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Migrations/20200316154408_initial.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Migrations/20200316154408_initial.Designer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Migrations/20200326134859_employeedb.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Migrations/20200326134859_employeedb.Designer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Migrations/RoleContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Migrations/RoleContextModelSnapshot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/Employee.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Employee.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/EmployeeContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/RoleServiceContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/role-api.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/role-api.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/role-api.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/role-api.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/role-api.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/role-api.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/role-api.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/role-api.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/role-service.sql" beforeDir="false" afterPath="$PROJECT_DIR$/role-service.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/RolesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/RolesController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Role.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Role.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/RoleServiceContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/RoleServiceContext.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,11 +89,11 @@
         <option value="$PROJECT_DIR$/Models/EmployeeContext.cs" />
         <option value="$PROJECT_DIR$/appsettings.json" />
         <option value="$PROJECT_DIR$/role-service.sql" />
-        <option value="$PROJECT_DIR$/Models/Role.cs" />
-        <option value="$PROJECT_DIR$/Controllers/RolesController.cs" />
-        <option value="$PROJECT_DIR$/Models/RoleServiceContext.cs" />
         <option value="$PROJECT_DIR$/Models/Employee.cs" />
         <option value="$PROJECT_DIR$/Controllers/EmployeesController.cs" />
+        <option value="$PROJECT_DIR$/Controllers/RolesController.cs" />
+        <option value="$PROJECT_DIR$/Models/RoleServiceContext.cs" />
+        <option value="$PROJECT_DIR$/Models/Role.cs" />
       </list>
     </option>
   </component>
@@ -225,7 +212,7 @@
       <workItem from="1585122356697" duration="161000" />
       <workItem from="1585127130357" duration="10895000" />
       <workItem from="1585220929720" duration="12538000" />
-      <workItem from="1585291237090" duration="2276000" />
+      <workItem from="1585291237090" duration="4936000" />
     </task>
     <servers />
   </component>
@@ -306,10 +293,10 @@
     <state x="331" y="107" width="704" height="578" key="find.popup/0.27.1366.741/1366.0.1366.768@0.27.1366.741" timestamp="1584718841728" />
     <state x="331" y="107" width="704" height="578" key="find.popup/0.27.1366.741@0.27.1366.741" timestamp="1585060091126" />
     <state x="662" y="107" width="1408" height="578" key="find.popup/0.27.2732.741@0.27.2732.741" timestamp="1585138862460" />
-    <state x="346" y="89" key="search.everywhere.popup" timestamp="1585228004859">
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1585294207288">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="346" y="89" key="search.everywhere.popup/0.27.1366.741@0.27.1366.741" timestamp="1585228004859" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.27.1366.741@0.27.1366.741" timestamp="1585294207288" />
     <state x="408" y="309" width="540" height="175" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1584473982413">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
