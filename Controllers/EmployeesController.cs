@@ -107,14 +107,14 @@ namespace io.turntabl.RoleService.Controllers
         [HttpDelete("{id}")]
         public ActionResult<Employee> PutEmployee(int id)
         {
-           var role = _context.employees.Find(id);
-           if(role == null){
+           var employee = _context.employees.Find(id);
+           if(employee == null){
                return NotFound();
            }
-           _context.employees.Remove(role);
+           _context.employees.Remove(employee);
            _context.SaveChanges();
            
-           return role;
+           return employee;
         }
         
 
